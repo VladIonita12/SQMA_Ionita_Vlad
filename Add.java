@@ -1,4 +1,8 @@
 
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
 public class Add {
 StudentClass obj = new StudentClass();
 
