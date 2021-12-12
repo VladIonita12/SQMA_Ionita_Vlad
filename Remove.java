@@ -1,8 +1,3 @@
-package ism.ase.ro;
-
-import static org.junit.Assert.*;
-
-import org.junit.Test;
 
 public class Remove {
 	StudentClass obj = new StudentClass();
