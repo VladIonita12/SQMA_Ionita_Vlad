@@ -1,4 +1,3 @@
-package ism.ase.ro;
 
 import static org.junit.Assert.*;
 
@@ -43,13 +42,7 @@ public class TestCase {
         assertEquals("Checking size of List", 3, obj.sizeOfStudent());  
     }  
       
-    @Test  
-    public void testRemove() {  
-        obj.add("Antonio");  
-        obj.add("Paul");  
-        obj.remove("Paul");  
-        assertEquals("Removing 1 student from list", 1, obj.sizeOfStudent());  
-    }  
+
       
     @Test  
     public void removeAll() {  
