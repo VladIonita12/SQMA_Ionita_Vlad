@@ -9,8 +9,8 @@ public class Remove {
 	    public void testRemove() {  
 	        obj.add("Antonio");  
 	        obj.add("Paul");  
-	          
-	        assertEquals("Removing 1 student from list", 2, obj.sizeOfStudent());  
+	        obj.remove("Paul");  
+	        assertEquals("Removing 1 student from list", 1, obj.sizeOfStudent());  
 	    }  
   
       
