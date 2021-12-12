@@ -8,7 +8,7 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class Add {
-
+StudentClass obj = new StudentClass();
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 	}

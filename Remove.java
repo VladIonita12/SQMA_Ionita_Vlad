@@ -9,6 +9,7 @@ import org.junit.Test;
 
 public class Remove {
 
+StudentClass obj = new StudentClass();
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 	}
