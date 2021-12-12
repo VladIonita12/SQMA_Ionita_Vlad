@@ -6,8 +6,8 @@ public class Remove {
 	    public void testRemove() {  
 	        obj.add("Antonio");  
 	        obj.add("Paul");  
-	        obj.remove("Paul");  
-	        assertEquals("Removing 1 student from list", 1, obj.sizeOfStudent());  
+	        obj.removeAll();  
+	        assertEquals("Removing all students from list", 0, obj.sizeOfStudent());  
 	    }  
   
       
