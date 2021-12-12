@@ -25,10 +25,4 @@ StudentClass obj = new StudentClass();
     }  
       
 
-      
-    @Test  
-    public void removeAll() {  
-        obj.removeAll();  
-    }  
-
 }
